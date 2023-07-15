@@ -1,0 +1,29 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "run",
+            "type": "shell",
+            "isBackground": false,
+            "command": "C:\\melonDS-gdb\\melonDS.exe",
+            "args": [
+                "${workspaceFolder}/src/NitroDjinn.nds"
+            ],
+            "presentation": {
+                "clear": true,
+                "reveal": "always"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "stop-emulation",
+            "type": "shell",
+            "command": "taskkill",
+            "args": [
+                "/FI",
+                "imagename eq melonDS*"
+            ],
+            "problemMatcher": []
+        }
+    ]
+}

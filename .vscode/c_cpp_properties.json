@@ -1,0 +1,118 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:\\devkitPro\\devkitARM\\bin\\arm-none-eabi-g++.exe",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "windows-gcc-arm"
+        },
+        {
+            "name": "NDS-Win",
+            "includePath": [
+                "c:\\Users\\jonko\\source\\repos\\Nitro-Djinn/**",
+                "C:\\devkitPro\\devkitARM\\include\\**",
+                "C:\\devkitPro\\devkitARM\\arm-none-eabi\\include\\**",
+                "C:\\devkitPro\\libnds\\include\\**",
+                "C:\\devkitPro\\nitro-engine\\include\\**",
+                "C:\\devkitPro\\nflib\\include\\**"
+            ],
+            "defines": [
+                "ARM9"
+            ],
+            "compilerPath": "C:\\devkitPro\\devkitARM\\bin\\arm-none-eabi-gcc.exe",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "windows-gcc-arm",
+            "compilerPathInCppPropertiesJson": "C:\\devkitPro\\devkitARM\\bin\\arm-none-eabi-gcc.exe",
+            "mergeConfigurations": false,
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**",
+                    "C:\\devkitPro\\devkitARM\\include\\**",
+                    "C:\\devkitPro\\devkitARM\\arm-none-eabi\\include\\**",
+                    "C:\\devkitPro\\libnds\\include\\**",
+                    "C:\\devkitPro\\nitro-engine\\include\\**",
+                    "C:\\devkitPro\\nflib\\include\\**"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        },
+        {
+            "name": "NDS++-Win",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:\\devkitPro\\devkitARM\\include\\**",
+                "C:\\devkitPro\\devkitARM\\arm-none-eabi\\include\\**",
+                "C:\\devkitPro\\libnds\\include\\**",
+                "C:\\devkitPro\\nitro-engine\\include\\**",
+                "C:\\devkitPro\\nflib\\include\\**"
+            ],
+            "defines": [
+                "ARM9"
+            ],
+            "compilerPath": "C:\\devkitPro\\devkitARM\\bin\\arm-none-eabi-g++.exe",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "windows-gcc-arm"
+        },
+        {
+            "name": "NDS-Unix",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/devkitPro/devkitARM/include/**",
+                "/opt/devkitPro/devkitARM/arm-none-eabi/include/**",
+                "/opt/devkitPro/libnds/include/**",
+                "/opt/devkitPro/nitro-engine/include/**",
+                "/opt/devkitPro/nflib/include/**"
+            ],
+            "defines": [
+                "ARM9"
+            ],
+            "compilerPath": "/opt/devkitPro/devkitARM/bin/arm-none-eabi-gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-arm",
+            "compilerPathInCppPropertiesJson": "/opt/devkitPro/devkitARM/bin/arm-none-eabi-gcc",
+            "mergeConfigurations": false,
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**",
+                    "/opt/devkitPro/devkitARM/include/**",
+                    "/opt/devkitPro/devkitARM/arm-none-eabi/include/**",
+                    "/opt/devkitPro/libnds/include/**",
+                    "/opt/devkitPro/nitro-engine/include/**",
+                    "/opt/devkitPro/nflib/include/**"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        },
+        {
+            "name": "NDS++-Unix",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/devkitPro/devkitARM/include/**",
+                "/opt/devkitPro/devkitARM/arm-none-eabi/include/**",
+                "/opt/devkitPro/libnds/include/**",
+                "/opt/devkitPro/nitro-engine/include/**",
+                "/opt/devkitPro/nflib/include/**"
+            ],
+            "defines": [
+                "ARM9"
+            ],
+            "compilerPath": "/opt/devkitPro/devkitARM/bin/arm-none-eabi-g++",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-arm"
+        }
+    ],
+    "version": 4
+}
